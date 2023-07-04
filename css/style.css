@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'Spartan', sans-serif;
 }
 h1{
@@ -50,8 +50,16 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: #E3E6F3;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    background: #c8d1fa;
+ 
+    box-shadow: 0 5px 15px rgba(77, 75, 75, 0.6);
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+
+
 }
 #navbar{
     display: flex;
@@ -89,4 +97,72 @@ body{
     left: 20px;
     position: absolute;
 }
+#hero{
+    background-image: url("../img/h7.avif");
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    margin-bottom: 30px;
+   
+}
+#hero h4{
+    padding: 30px 0;
+    color: #cdcbcb;
+}
+#hero h2{
+    padding: 20px 0;
+    color: #f3edeb;
+}
+#hero h1{
+    color: #f3edeb;
+}
+
+#hero p{
+    color: #cdcbcb;
+    font-size: 20px;
+}
+#hero button{
+    padding: 10px 15px;
+    pointer : cursor;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.3s all ease;
+    background: #FF5733;
+    color: #f3edeb;
+}
+#hero button:hover{
+    background: #f3edeb;
+    color: #FF5733;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cec7d0;
+    border-radius: 4px ;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 84px rgba(70, 62, 221, 0.1);
+}
+#feature .fe-box img{
+    margin-bottom: 12px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+     padding: 8px 4px 7px 5px;
+     background: #fddde4;
+     color: #088178;
+     border-radius: 4px;
+     line-height: 1;
+}
+
 
