@@ -48,6 +48,18 @@ button.normal {
     font-size: 16px;
     font-weight: 700;
 }
+button.white {
+    padding: 15px 30px;
+    color: #fff;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #fff;
+    transition: 0.3s ease;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 .section-p1 {
     padding: 40px 80px;
@@ -113,12 +125,12 @@ body {
 }
 
 #hero {
-    background-image: url("../img/h7.avif");
-    height: 95vh;
-    /* width: 100%; */
+    background-image: url("../img/hero.avif");
+    height: 60vh;
+    width: 88%;
     background-size: cover;
-    background-position: center;
-    /* background-position: top 25% right 0; */
+    /* background-position: center; */
+    background-position: top 25% right 5%;
     padding: 0 80px;
     margin-bottom: 30px;
 
@@ -243,7 +255,7 @@ body {
     width: 23%;
     min-width: 250px;
     /* padding: 10px 12px; */
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    box-shadow: 20px 20px 15px rgba(0, 0, 0, 0.03);
     border: 1px solid #cec7d0;
     padding-top: 10px;
     border-radius: 25px;
@@ -254,7 +266,7 @@ body {
 }
 
 #product1 .product:hover {
-    box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.06);
 }
 
 .product img {
@@ -343,4 +355,48 @@ body {
     color: #FF5733;
     border: 1px solid #fb6847;
     border-radius: 5px;
+}
+#banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#banner2 .banner-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url("../img/banner/b17.jpg");
+    min-width: 560px;
+    /* width: 40%; */
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+}
+#banner2 .banner-box-2{
+    /* width: 40%; */
+    min-width: 560px;
+    background-image: url("../img/banner/b10.jpg");
+}
+#banner2 h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner2 h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+#banner2 span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 15px;
+}
+#banner2 .banner-box:hover button{
+       background-color: #FF5733;
+       border: 1px solid #fff;
 }
