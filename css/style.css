@@ -51,15 +51,11 @@ body{
     justify-content: space-between;
     padding: 20px 80px;
     background: #c8d1fa;
- 
     box-shadow: 0 5px 15px rgba(77, 75, 75, 0.6);
     position: sticky;
     z-index: 999;
     top: 0;
     left: 0;
-
-
-
 }
 #navbar{
     display: flex;
@@ -100,7 +96,7 @@ body{
 #hero{
     background-image: url("../img/h7.avif");
     height: 95vh;
-    width: 100%;
+    width: 95%;
     background-size: cover;
     background-position: top 25% right 0;
     padding: 0 80px;
@@ -139,6 +135,12 @@ body{
     background: #f3edeb;
     color: #FF5733;
 }
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 #feature .fe-box{
     width: 180px;
@@ -164,5 +166,95 @@ body{
      border-radius: 4px;
      line-height: 1;
 }
+#feature .fe-box:nth-child(2) h6{
+        background-color: #fbbeb0;
+}
+#feature .fe-box:nth-child(3) h6{
+    background-color: #bcf6bb;
+}
+#feature .fe-box:nth-child(4) h6{
+    background-color: #f8b6ed;
+}
+#feature .fe-box:nth-child(5) h6{
+    background-color: #b4a6fd;
+}
+#feature .fe-box:nth-child(6) h6{
+    background-color: #8ee5fd;
 
+}
+ #product1{
+      padding-top: 50px;
+} 
+#product1 h2{
+    text-align: center;
+}
+#product1 p{
+    text-align: center;
+}
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  
+}
+#product1 .product{
+        width: 23%;
+        min-width: 250px;
+        /* padding: 10px 12px; */
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+        border: 1px solid #cec7d0;
+        padding-top: 10px;
+        border-radius: 25px;
+        cursor: pointer;
+        margin: 15px 0;
+        transition: 0.3s ease;
+        position: relative;
+}
+#product1 .product:hover{
+    box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.06);
+}
+.product img{
+    width: 100%;
+    border-radius: 20px;
+    height: 250px;
+}
+#product1 .product .description{
+    text-align: start;
+    padding: 10px 0 10px 15px;
+}
+#product1 .product .description span{
+    color: #606063;
+    font-size: 12px;
+}
+#product1 .product .description h5{
+    color: #1a1a1a;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#product1 .product .description .star{
+    color: #FFA500;
+    font-size: 12px;
+}
+#product1 .product .description h4{
+    color: #222121;
+    font-size: 14px;
+    padding-top: 7px;
+}
+.product #cart{
+    color:  #FF5733 ;
+    background: #fbc2b5;
+    font-weight: 500;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 1px solid  #f1a18f;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
+}
