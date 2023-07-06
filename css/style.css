@@ -661,6 +661,12 @@ footer .copyright {
 /* media query */
 
 @media (max-width:799px){
+    .section-p1 {
+        padding: 40px 40px;
+      }
+      .section-p1 {
+        padding: 40px 30px;
+      }
     #navbar{
         display: flex;
         flex-direction: column;
@@ -704,4 +710,21 @@ footer .copyright {
     #lg-bag{
         display: none;
     }
+
+    #hero {
+        height: 50vh;
+        /* background-position: center; */
+        background-position: top 30% right 30%;
+        padding: 0 80px;
+    }
+
+    #feature {
+       display: flex;
+       justify-content: center;
+
+        }
+
+      #feature .fe-box{
+          margin-left: 20px;
+       }
 }
