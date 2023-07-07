@@ -559,7 +559,7 @@ body {
 
 #newsletter .form {
     display: flex;
-    width: 60%;
+   
     /* margin-right: 40px; */
 }
 
@@ -662,8 +662,8 @@ footer .copyright {
 
 @media (max-width:799px){
     .section-p1 {
-        padding: 40px 40px;
-      }
+        padding: 40px 80px;
+    }
       .section-p1 {
         padding: 40px 30px;
       }
@@ -727,4 +727,95 @@ footer .copyright {
       #feature .fe-box{
           margin-left: 20px;
        }
+     
+       #product1 .product-container{
+        justify-content: center;
+       }
+       #product1 .product{
+        margin: 15px;
+       }
+       #banner {
+        height: 20vh;
+       }
+       #banner3{
+        justify-content: center;
+       }
+
+       #banner3 .banner-box{
+        width: 100%;
+        height: 20vh;
+        margin-top: 20px;
+        margin-right: 50px;
+         padding-left: 20px;
+      }
+      .section-p1 {
+        padding: 40px 80px;
+    }
+      .section-p1 {
+        padding: 40px 30px;
+      }
+     #newsletter{
+        height: 30vh;
+        padding: 40px 30px;
+      }
 }
+@media (max-width:477px){
+    .section-p1{
+        /* padding: 20px; */
+        padding-left: 10px 30px 10px 20px;
+    }
+       #header{
+        padding: 10px 30px;
+       }
+       h1{
+        font-size: 38px;
+       }
+       h2{
+        font-size: 32px;
+       }
+       #hero{
+        padding: 0 20px;
+        background-position: 55%;
+       }
+       #feature{
+        justify-content: space-between;
+       }
+
+       #feature .fe-box{
+         width: 155px;
+         margin: 0 0 15px 0;
+       }
+       #product1 .product-container {
+        width: 100%;
+       }
+     
+       #banner2 .banner-box{
+        margin: 0 0 15px 0;
+        height: 20vh;
+        min-width: 350px;
+       }
+       #banner2 .banner-box-2{
+        margin: 0 0 15px 0;
+        height: 20vh;
+        min-width: 350px;
+       }
+        #banner3{
+             justify-content: center;
+             gap: 5px;
+             flex-wrap: nowrap;
+             padding: 0 20px;
+        }
+         #banner3 h2{
+            font-size: 14px;
+         }
+         #banner3 h3{
+            font-size: 10px;
+         }
+         #banner3 .banner-box{
+        margin: 0 0 15px 0;
+        min-height: 10vh;
+        width: 100%;
+        
+       }
+
+    
