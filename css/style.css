@@ -71,7 +71,7 @@ button.white {
 }
 
 body {
-    width: 100%;
+    /* width: 100%; */
 }
 
 #header {
@@ -85,6 +85,7 @@ body {
     z-index: 999;
     top: 0;
     left: 0;
+    width: 88%;
 }
 
 #header img {
@@ -657,6 +658,48 @@ footer .copyright {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+/**********************shop page*******************/
+
+#page-header{
+    background-image: url("../img/banner/b1.jpg");
+    width: 98%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#page-header h2,p{
+      color: #fff;
+   
+}
+#pagination{
+    text-align: center;
+   
+}
+#pagination a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    background: #FF5733;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition: 0.2s ease;
+}
+#pagination a i{
+    font-weight: 600;
+    font-size: 18px;
+}
+#pagination a:hover{
+     color: #FF5733;
+     background: #fff;
+     border-radius: 4px;
+     border: 1px solid #FF5733;
+}
+
 
 /* media query */
 
@@ -817,5 +860,6 @@ footer .copyright {
         width: 100%;
         
        }
+    }
 
     
