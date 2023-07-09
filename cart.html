@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 
@@ -24,7 +25,7 @@
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a  href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
                 <a href="#" id="close-btn"><i class="fa-solid fa-circle-xmark"></i></a>
             </ul>
@@ -39,85 +40,96 @@
         <h2>#contact us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-    </section> 
-    <section id="cart" class="section-p1">
-       <table width="100%">
-          <thead>
-            <tr>
-                <td>Remove</td>
-                <td>Image</td>
-                <td>Product</td>
-                <td>Price</td>
-                <td>Quantity</td>
-                <td>Subtotal</td>
-              </tr>
-          </thead>
-          <tbody>
-            <tr>
-                <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
-                <td><img src="img/products/sh0.avif" alt=""></td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$000</td>
-                <td><input type="value" value="1"></td>
-            </tr>
-            <tr>
-                <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
-                <td><img src="img/products/sh4.avif" alt=""></td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$000</td>
-                <td><input type="value" value="1"></td>
-            </tr>
-            <tr>
-                <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
-                <td><img src="img/products/sh3.avif" alt=""></td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$000</td>
-                <td><input type="value" value="1"></td>
-            </tr>
-            <tr>
-                <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
-                <td><img src="img/products/sh2.avif" alt=""></td>
-                <td>Lorem ipsum dolor sit amet.</td>
-                <td>$000</td>
-                <td><input type="value" value="1"></td>
-            </tr>
-
-          </tbody>
-       </table>
     </section>
- <section id="cart-id" class="section-p1">
-    <div id="coupon">
-        <h3>Apply Coupon</h3>
-        <div>
-            <input type="text" placeholder="Enter Your Coupon">
-            <button class="normal">Apply</button>
-        </div>
-    </div>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Quantity</td>
+                    <td>Price</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/sh0.avif" alt=""></td>
+                    <td>Nike Male Sneaker</td>
+                    <td><input type="value" id="quantity-input" value="1"> <button id="add-btn" class="add">Add</button>
+                    </td>
+                    <td>$ <span id="price">10</span></td>
+                    <td>$<span id="sub-total">0.0</span></td>
 
-    <div id="subtotal">
-        <h3>Cart Total</h3>
-        <table>
-            <tr>
-                <td>Cart Subtotal</td>
-                <td>$ 335</td>
-            </tr>
-            <tr>
-                <td>Shipping</td>
-                <td>Free</td>
-            </tr>
-            <tr>
+                </tr>
+                <tr>
+                    <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/sh0.avif" alt=""></td>
+                    <td>Nike Male Sneaker</td>
+                    <td><input type="value" id="quantity-input" value="1"> <button id="add-btn" class="add">Add</button>
+                    </td>
+                    <td>$ <span id="price">10</span></td>
+                    <td>$<span id="sub-total">0.0</span></td>
+
+                </tr>
+                <tr>
+                    <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/sh0.avif" alt=""></td>
+                    <td>Nike Male Sneaker</td>
+                    <td><input type="value" id="quantity-input" value="1"> <button id="add-btn" class="add">Add</button>
+                    </td>
+                    <td>$ <span id="price">10</span></td>
+                    <td>$<span id="sub-total">0.0</span></td>
+
+                </tr>
+                <tr>
+                    <td><i class="fa-sharp fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="img/products/sh0.avif" alt=""></td>
+                    <td>Nike Male Sneaker</td>
+                    <td><input type="value" id="quantity-input" value="1"> <button id="add-btn" class="add">Add</button>
+                    </td>
+                    <td>$ <span id="price">10</span></td>
+                    <td>$<span id="sub-total">0.0</span></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-id" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
                     <td><strong>Total</strong></td>
                     <td><strong>$330</strong></td>
-            </tr>
-        </table>
-        <div>
-            <button class="normal">Proceede Checkout</button>
+                </tr>
+            </table>
+            <div>
+                <button class="normal">Proceede Checkout</button>
+            </div>
         </div>
-    </div>
 
- </section>
+    </section>
 
-  
+
     <footer class="section-p1">
         <div class="col">
             <img class="logo " src="img/last-logo.png" alt="">
@@ -174,6 +186,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 
 </html>
